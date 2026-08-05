@@ -1,4 +1,4 @@
-# mp3_synthesizer_V_voice_matcher
+# Synthesizer_V_Gemini_helper
 [exe 파일링크](https://drive.google.com/drive/folders/1nb9UgU_VA1voSfAzWjLTpJLt74XGa4IJ?usp=sharing)로 실행할때의 사용법은 글 하단에 있습니다.
 </br>
 </br>
