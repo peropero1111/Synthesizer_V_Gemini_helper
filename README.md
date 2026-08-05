@@ -4,7 +4,7 @@
 </br>
 <br>
 목차
-1. [python 사용법](###-python-사용법)
+1. [python 사용법](#python-사용법)
 2. [exe & python 공통 사용법](###-exe-&-python-공통-사용법)
 3. 기능 소개 1
 4. 기능 소개2
