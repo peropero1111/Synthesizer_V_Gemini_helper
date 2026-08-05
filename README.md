@@ -5,8 +5,8 @@
 <br>
 목차
 1. [python 사용법](#python-사용법)
-2. [exe & python 공통 사용법](###-exe-&-python-공통-사용법)
-3. 기능 소개 1
+2. [exe & python 공통 사용법](#exe--python-공통-사용법)
+3. [기능 소개 1](#신스븨-보이스-추천)
 4. 기능 소개2
 5. 기능소개3
 <br>
@@ -52,6 +52,8 @@
 <br>
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;4)  관리자 권한으로열린 powershell 에 다음 명령어를 입력하여 주십시오.
+</br>
+
 >```bash
 >[Environment]::SetEnvironmentVariable(
 >  "GEMINI_API_KEY",
@@ -63,15 +65,18 @@
 
 </br>
 </br>
-아래에 더욱 쉬운 이해를 위한 이미지가 있습니다.
-</br>
-</br>
 
+- - -
 
-</br>
-</br>
+### 신스븨 보이스 추천 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;위의 탭에서 `Synthesizer V 보이스 추천` 을 누르신 후 자신이 가지고 있는 캐릭터를 선택하신 다음 .mp3 파일을 고르시면 그 .mp3 파일에 가장 잘 어울리는 캐릭터를 gemini 가 추천해 줍니다.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/mp3_synthesizer_V_voice_matcher/blob/main/img/2026-08-05%20143524.png" width="450" height="450"/>  
 
+---
 
+### 영어 입력시 신스븨 노트 발음 출력
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
 
-</br>
-</br>
