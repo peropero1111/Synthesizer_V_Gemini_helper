@@ -6,9 +6,9 @@
 목차
 1. [python 사용법](#python-사용법)
 2. [exe & python 공통 사용법](#exe--python-공통-사용법)
-3. [기능 소개 1](#신스븨-보이스-추천)
-4. 기능 소개2
-5. 기능소개3
+3. [기능 소개 1](#1-신스븨-보이스-추천)
+4. [기능 소개2](#2-영어-입력시-신스븨-노트-발음-출력)
+5. [기능소개3](#3-한국어에-대응하는-영어-발음-출력)
 <br>
 
 - - -
@@ -33,7 +33,7 @@
 - - -
 ### exe & python 공통 사용법
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;1)   https://aistudio.google.com/api-keys 이 사이트에 들어가셔서 우측상단의 " api 키 만들기 " 를 클릭하여주십시오.
+&nbsp;&nbsp;&nbsp;&nbsp;1)https://aistudio.google.com/api-keys 이 사이트에 들어가셔서 우측상단의 " api 키 만들기 " 를 클릭하여주십시오.
 <br>
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/mp3_synthesizer_V_voice_mather-/blob/main/img/2026-06-23%20212257.png" width="450" height="450"/>  
@@ -67,16 +67,29 @@
 </br>
 
 - - -
+## 기능 설명
 
-### 신스븨 보이스 추천 
+
+### 1. 신스븨 보이스 추천 
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;위의 탭에서 `Synthesizer V 보이스 추천` 을 누르신 후 자신이 가지고 있는 캐릭터를 선택하신 다음 .mp3 파일을 고르시면 그 .mp3 파일에 가장 잘 어울리는 캐릭터를 gemini 가 추천해 줍니다.
+&nbsp;&nbsp;&nbsp;&nbsp;위의 탭에서 <code>Synthesizer V 보이스 추천</code>을 누르신 후 자신이 가지고 있는 캐릭터를 선택하신 다음 .mp3 파일을 고르시면 그 .mp3 파일에 가장 잘 어울리는 캐릭터를 gemini 가 추천해 줍니다.
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/mp3_synthesizer_V_voice_matcher/blob/main/img/2026-08-05%20143524.png" width="450" height="450"/>  
 
 ---
 
-### 영어 입력시 신스븨 노트 발음 출력
+### 2. 영어 입력시 신스븨 노트 발음 출력
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;위의 탭에서 <code>영어 입력하면 신스븨 발음 출력</code> 을 누르신 후 하단에 <code>영단어를</code> 입력하여 주시면 신스븨 에서 <code>가사에 들어갈 발음</code>, <code>노트 분할 힌트</code> (지나치게 긴경우) 등이 출력됩니다.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/mp3_synthesizer_V_voice_matcher/blob/main/img/2026-08-05%20155948.png?raw=true" width="450" height="450"/>  
 
+- - -
+
+### 3. 한국어에 대응하는 영어 발음 출력
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;전에 Synthesizer V pro 에서는 한국어가 노트에 바로바로 입력되지 아니하여서 국립국어원 로마자표기법을 조금 변형한 게 있길래 적용하여서 만들어 보았습니다. 
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;마찬가지로 위의 탭에서 <code>한국어 입력하면 영어발음 출력</code>을 누르신 후에 한국어 단어/문장을 입력하시면 로마자 표기법에 맞게변환된 말이 나옵니다.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/mp3_synthesizer_V_voice_matcher/blob/main/img/2026-08-05%20162406.png?raw=true" width="450" height="450"/>  
