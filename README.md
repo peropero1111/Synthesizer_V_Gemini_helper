@@ -1,6 +1,13 @@
 # Synthesizer_V_Gemini_helper
+Synthesizer V 사용자의 보컬 프로그래밍 및 작곡 프로세스를 지원하기 위해 개발된 Gemini AI 기반 보조 도구입니다.
 
-목차
+###  주요 기능 
+* **신스븨 보이스 추천 :** gemini api를 활용하여 곡의 분위기에 맞는 캐릭터를 추천하고 그 이유를 말해 줍니다.
+* **영어 입력시 신스븨 노트 발음 출력 :** 영어로 가사를 입력시 어떻게 노트에 넣어야 할지, 노트 분할 방법은 무엇이 있는지도 말해 줍니다.
+* **한국어에 대응하는 영어 발음 출력 :** 한국어 가사를 입력하면 영문으로 번역되어 보다 수월하게 노래 작업을 할 수 있도록 돕습니다.
+</br>
+
+### 목차
 1. [python 사용법](#python-사용법)
 2. [exe & python 공통 사용법](#exe--python-공통-사용법)
 3. [기능 소개 1](#1-신스븨-보이스-추천)
@@ -81,7 +88,7 @@
 
 ### 2. 영어 입력시 신스븨 노트 발음 출력
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;위의 탭에서 <code>영어 입력하면 신스븨 발음 출력</code> 을 누르신 후 하단에 <code>영단어를</code> 입력하여 주시면 신스븨 에서 <code>가사에 들어갈 발음</code>, <code>노트 분할 힌트</code> (지나치게 긴경우) 등이 출력됩니다.
+&nbsp;&nbsp;&nbsp;&nbsp;위의 탭에서 <code>영어 입력하면 신스븨 발음 출력</code> 을 누르신 후 하단에 <code>영단어를</code> 입력하여 주시면 신스븨 에서 <code>가사에 들어갈 발음</code>, <code>노트 분할 힌트</code> (basic 버전) 등이 출력됩니다.
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/peropero1111/mp3_synthesizer_V_voice_matcher/blob/main/img/2026-08-05%20155948.png?raw=true" width="450" height="450"/>  
 
@@ -90,6 +97,7 @@
 ### 3. 한국어에 대응하는 영어 발음 출력
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;전에 Synthesizer V pro 에서는 한국어가 노트에 바로바로 입력되지 아니하여서 국립국어원 로마자표기법을 조금 변형한 게 있길래 적용하여서 만들어 보았습니다. 
+<br>
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;마찬가지로 위의 탭에서 <code>한국어 입력하면 영어발음 출력</code>을 누르신 후에 한국어 단어/문장을 입력하시면 로마자 표기법에 맞게변환된 말이 나옵니다.
 <br>
